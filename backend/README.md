@@ -9,9 +9,13 @@
 - Body: An image file with the key image.
   **Response**:
 - Content-Type: application/json
-- Body: {
+- Body:
+
+```json
+{
   "results": [
-  {"label": "dog", "confidence": 0.85},
-  {"label": "cat", "confidence": 0.15}
+    { "label": "dog", "confidence": 0.85 },
+    { "label": "cat", "confidence": 0.15 }
   ]
-  }
+}
+```
